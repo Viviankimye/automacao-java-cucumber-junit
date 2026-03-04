@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
         glue = "steps",
         //tags =
         //O plugin pretty deixa o output no console mais bonito e legível.
-        plugin = "pretty",
+        plugin = {"pretty", "html:target/report-html"},
         //Remove caracteres especiais e cores do console.
         monochrome = true,
         //Indica qual estilo o Cucumber deve usar ao gerar métodos automaticamente.
