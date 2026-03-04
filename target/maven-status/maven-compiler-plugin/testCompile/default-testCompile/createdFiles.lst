@@ -1,3 +1,2 @@
-steps\RunCucumberTest.class
 com\automacao\integracao\sts\token\Sts.class
-steps\AprenderCucumber.class
+runners\RunnerTest.class
